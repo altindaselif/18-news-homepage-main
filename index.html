@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>News Homepage</title>
+  </head>
+  <body>
+    <div class="overlay"></div>
+    <div class="page-container">
+      <header class="header-container">
+        <a class="header-logo-link" href="#"
+          ><img class="header-logo" src="images/logo.svg" alt="Website Logo"
+        /></a>
+        <button class="header-menu-open-button" aria-label="Open Menu">
+          <img
+            class="header-menu-open-icon"
+            src="images/icon-menu.svg"
+            alt="Menu Open Icon"
+          />
+        </button>
+        <nav class="header-navbar">
+          <button class="navbar-menu-close-button" aria-label="Close Menu">
+            <img
+              class="navbar-menu-close-icon"
+              src="images/icon-menu-close.svg"
+              alt="Menu Close Icon"
+            />
+          </button>
+          <a class="navbar-link" href="#">Home</a>
+          <a class="navbar-link" href="#">New</a>
+          <a class="navbar-link" href="#">Popular</a>
+          <a class="navbar-link" href="#">Trending</a>
+          <a class="navbar-link" href="#">Categories</a>
+        </nav>
+      </header>
+      <main class="main-container">
+        <section class="main-news-container">
+          <img
+            class="hero-img"
+            src="images/image-web-3-desktop.jpg"
+            alt="Game Blocks Image"
+          />
+          <h1 class="hero-title">The Bright Future of Web 3.0?</h1>
+          <div class="hero-text-container">
+            <p class="hero-text">
+              We dive into the next evolution of the web that claims to put the
+              power of the platforms back into the hands of the people. But is
+              it really fulfilling its promise?
+            </p>
+            <button class="hero-button">READ MORE</button>
+          </div>
+          <aside class="sidebar-container">
+            <h2 class="sb-title">New</h2>
+            <div class="sb-item-container">
+              <a class="sb-item-title" href="#">Hydrogen VS Electric Cars</a>
+              <p class="sb-item-text">
+                Will hydrogen-fueled cars ever catch up to EVs?
+              </p>
+            </div>
+            <div class="sb-item-container">
+              <a class="sb-item-title" href="#">The Downsides of AI Artistry</a>
+              <p class="sb-item-text">
+                What are the possible adverse effects of on-demand AI image
+                generation?
+              </p>
+            </div>
+            <div class="sb-item-container">
+              <a class="sb-item-title" href="#">Is VC Funding Drying Up?</a>
+              <p class="sb-item-text">
+                Private funding by VC firms is down 50% YOY. We take a look at
+                what that means.
+              </p>
+            </div>
+          </aside>
+        </section>
+        <section class="bottom-news-container">
+          <div class="bottom-news">
+            <img
+              class="bottom-news-img"
+              src="images/image-retro-pcs.jpg"
+              alt="Retro Game Image"
+            />
+            <div class="news-container">
+              <p class="news-number">01</p>
+              <a class="news-title" href="#">Reviving Retro PCs</a>
+              <p class="news-text">
+                What happens when old PCs are given modern upgrades?
+              </p>
+            </div>
+          </div>
+          <div class="bottom-news">
+            <img
+              class="bottom-news-img"
+              src="images/image-top-laptops.jpg"
+              alt="Laptops Image"
+            />
+            <div class="news-container">
+              <p class="news-number">02</p>
+              <a class="news-title" href="#">Top 10 Laptops of 2022</a>
+              <p class="news-text">
+                Our best picks for various needs and budgets.
+              </p>
+            </div>
+          </div>
+          <div class="bottom-news">
+            <img
+              class="bottom-news-img"
+              src="images/image-gaming-growth.jpg"
+              alt="Gaming Growth Image"
+            />
+            <div class="news-container">
+              <p class="news-number">03</p>
+              <a class="news-title" href="#">The Growth of Gaming</a>
+              <p class="news-text">
+                How the pandemic has sparked fresh opportunities.
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
