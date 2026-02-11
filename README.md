@@ -10,8 +10,8 @@ This is a News Homepage that you can use on your websites.
 
 ## Links
 
-- **GitHub Repository:** [View Code](https://github.com/altindaselif/newsletter-sign-up-with-success-message-main)
-- **Live Demo:** [View Live Site](https://altindaselif.github.io/newsletter-sign-up-with-success-message-main/)
+- **GitHub Repository:** [View Code](https://github.com/altindaselif/18-news-homepage-main)
+- **Live Demo:** [View Live Site](https://altindaselif.github.io/18-news-homepage-main/)
 
 ## Built With
 

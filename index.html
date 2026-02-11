@@ -29,15 +29,25 @@
         <a class="header-logo-link" href="#"
           ><img class="header-logo" src="images/logo.svg" alt="Website Logo"
         /></a>
-        <button class="header-menu-open-button" aria-label="Open Menu">
+        <button
+          type="button"
+          class="header-menu-open-button"
+          aria-expanded="false"
+          aria-controls="main-nav"
+          aria-label="Open Menu"
+        >
           <img
             class="header-menu-open-icon"
             src="images/icon-menu.svg"
             alt="Menu Open Icon"
           />
         </button>
-        <nav class="header-navbar">
-          <button class="navbar-menu-close-button" aria-label="Close Menu">
+        <nav class="header-navbar" id="main-nav">
+          <button
+            type="button"
+            class="navbar-menu-close-button"
+            aria-label="Close Menu"
+          >
             <img
               class="navbar-menu-close-icon"
               src="images/icon-menu-close.svg"
@@ -65,9 +75,15 @@
               power of the platforms back into the hands of the people. But is
               it really fulfilling its promise?
             </p>
-            <button class="hero-button">READ MORE</button>
+            <button
+              type="button"
+              class="hero-button"
+              aria-label="Read more about the bright future of Web 3.0"
+            >
+              READ MORE
+            </button>
           </div>
-          <aside class="sidebar-container">
+          <section class="sidebar-container">
             <h2 class="sb-title">New</h2>
             <div class="sb-item-container">
               <a class="sb-item-title" href="#">Hydrogen VS Electric Cars</a>
@@ -89,7 +105,7 @@
                 what that means.
               </p>
             </div>
-          </aside>
+          </section>
         </section>
         <section class="bottom-news-container">
           <div class="bottom-news">

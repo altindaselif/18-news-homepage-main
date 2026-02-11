@@ -50,6 +50,7 @@ body {
   font-family: var(--font-family);
   background-color: var(--white);
   min-height: 100vh;
+  padding: var(--spacing-300) 0;
 
   display: flex;
   align-items: center;
@@ -246,7 +247,6 @@ button {
 @media (max-width: 48em) {
   body {
     position: relative;
-    padding: var(--spacing-300);
   }
 
   .page-container {
